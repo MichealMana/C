@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 
-int main()
+void main()
 {
 	#define SIZE1 10
 	#define SIZE2 12
@@ -17,7 +17,6 @@ int main()
 	printf("string %s is longest than string %s.\n", str1,str2);
 	else
 	printf("string %s is longest than string. %s.\n", str2,str1);
-	return 0;
 }
 	
 
